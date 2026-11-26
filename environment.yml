@@ -1,0 +1,13 @@
+name: ml-a3
+channels: [conda-forge]
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - joblib==1.6.0
+      - matplotlib==3.11.2
+      - numpy==2.5.5
+      - scikit-learn==1.9.1
+      - scipy==1.18.1
+      - torch==2.15.0
+      - torchvision==0.29.2
